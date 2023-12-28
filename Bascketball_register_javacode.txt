@@ -113,7 +113,8 @@ public class bascketBall {
 		Thread.sleep(1000);
 	    WebElement Checkbox = driver.findElement(By.id("radio-switch-3"));
 	    Checkbox.click();
-	    
+	    WebElement checkbox1 = driver.findElement(By.id("radio-switch-4"));
+	    checkbox1.click();
 	    
 	    //photographButton.sendKeys(Stringfile);
 	}
